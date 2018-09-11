@@ -1,4 +1,4 @@
-![NEM Name Service](./assets/title.png)
+![NEM Name Service](./assets/title.jpg)
 
 > 📖🔍 Documents of the NEM Name Service.
 
