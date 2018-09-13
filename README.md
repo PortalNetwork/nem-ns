@@ -10,7 +10,7 @@ NEM’s blockchain technology offers the potential to drastically simplify an en
 Designed with modular customization in mind, NEM can be used for almost any application thanks to its "Smart Asset System". 
 
 ## 💡 What is BNS?
-BNS – or blockchain name system – is the protocol on the internet that turns human-comprehensible decentralized website names such as ‘website.perl’ or ‘mywebsite.eth’ into addresses understandable by decentralized network machines.
+BNS – or blockchain name system – is the protocol on the internet that turns human-comprehensible decentralized website names such as ‘website.xem’ or ‘mywebsite.xem’ into addresses understandable by decentralized network machines.
 
 ## 📝 Description
 
@@ -19,7 +19,12 @@ NNS is the NEM Name Service, a distributed, open, and extensible naming system b
 ## 📚 Documents
 
 #### Table of Contents
--  [Introduction](./docs/INTRODUCTION.md)
+- [Introduction](./docs/INTRODUCTION.md)
+- [Implementation](./docs/IMPLEMENTATION.md)
+    - [Registry](./docs/REGISTRY.md)
+    - [Registrar](./docs/REGISTRAR.md)
+    - [Resolver](./docs/RESOLVER.md)
+- [Integration](./docs/INTEGRATION.md)
 
 ## 📣 Contributing
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to help out.
