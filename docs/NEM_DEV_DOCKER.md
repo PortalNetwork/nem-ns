@@ -31,23 +31,22 @@ $ ./ndev --status
 ```
 
 It will print:
-```
-running containers are:
-nem-dev_nemdevnis_1
-nem-dev_nemdevtools_1
-```
+![status](../assets/status.png)
 
 And open a shell in the NIS container: 
 ```
 $ ./ndev -c nis bash
 ```
+
+![bash](../assets/bash.png)
+
 In container shell, check if NIS is running:
 ```
 [root@23627cb63be0 /]# ps aux 
 ```
 This shows that NIS is running (this is the java -Xms512M -Xmx1G ... process).
 
-![psaux](./assets/psaux.png)
+![psaux](../assets/psaux.png)
 
 If not, type below command:
 ```
@@ -57,7 +56,7 @@ You can access the logs of NIS with `tail /var/log/nis-stderr.log -f`:
 ```
 [root@23627cb63be0 /]# tail /var/log/nis-stderr.log -f
 ```
-![NIS](./assets/log.png)
+![NIS](../assets/log.png)
 
 If you see that the NIS instance is communicating with other instances (synchronizing with Node [Hi, I am MedAlice2...) which means our NIS instance is synchronized ongoing. You can start to interact with NEM through [NEM-SDK](https://github.com/QuantumMechanics/NEM-sdk) now.
 
