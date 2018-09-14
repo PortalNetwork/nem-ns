@@ -25,6 +25,7 @@ NNS is the NEM Name Service, a distributed, open, and extensible naming system b
     - [Registrar](./docs/REGISTRAR.md)
     - [Resolver](./docs/RESOLVER.md)
 - [Integration](./docs/INTEGRATION.md)
+    - [Docker Setup](./docs/NEM_DEV_DOCKER.md)
 
 ## 📣 Contributing
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to help out.
