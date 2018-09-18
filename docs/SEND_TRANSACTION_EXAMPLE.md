@@ -74,5 +74,36 @@ async transferMosaic(){
 	console.log(await nem.model.transactions.send(common, transactionEntity, endpoint));
 }
 ```
+## Send Mosaic creation transaction
+
+```javascript
+import nem from 'nem-sdk';
+
+async createMosaic(mosaicDefinition) {
+	// Create an NIS endpoint object
+	const endpoint = nem.model.objects.create("endpoint")(process.env.NIS_HOST, process.env.NIS_PORT);
+	// Create a common object holding key 
+	const common = nem.model.objects.create("common")(process.env.PASSWORD, process.env.PRIVATE_KEY);
+	console.log(endpoint,common);
+	let tx = nem.model.objects.get("mosaicDefinitionTransaction");
+	// Define the mosaic
+	tx.mosaicName = mosaicDefinition.mosaicName;//mosaic name must be only lowercase
+	tx.namespaceParent = {
+		"fqn": mosaicDefinition.namespaceParent
+	};
+	tx.mosaicDescription = mosaicDefinition.mosaicDescription;
+	// Set properties (see https://nemproject.github.io/#mosaicProperties)
+	tx.properties.initialSupply = mosaicDefinition.initialSupply;
+	tx.properties.divisibility = mosaicDefinition.divisibility;
+	tx.properties.transferable = mosaicDefinition.transferable;
+	tx.properties.supplyMutable = mosaicDefinition.supplyMutable;
+
+	// Prepare the transaction object
+	const transactionEntity = nem.model.transactions.prepare("mosaicDefinitionTransaction")(common, tx, nem.model.network.data.testnet.id);
+
+	// Serialize transaction and announce
+	console.log(await nem.model.transactions.send(common, transactionEntity, endpoint));
+}
+```
 
 ## [Reference](https://github.com/QuantumMechanics/NEM-sdk#3---transactions)
