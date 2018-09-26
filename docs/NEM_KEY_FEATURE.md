@@ -10,7 +10,7 @@ Before creating your own mosaics, you have to define `namespace` in your wallet 
 
 ## Multisig account
 
-You can change your account into multisig account. At that point, the account has no power and its private key is useless. You then need multiple keys from other singing accounts to send XEM. NEM's current implementation of multisig is "M-of-N", meaning M can be any number equal to or less than N, i.e., 1-of-4, 2-of-3, 4-of-9, 11-of-12 and so on. NEM also allows "N-of-N" accounts, i.e., 1-of-1, 2-of-2, 5-of-5, 10-of-10 and so on. With N-of-N accounts transaction have to have all N cosignatories sign the account, but to edit the signers on the account it is "N-1." 
+You can change your account into multisig account. At that point, the account has no power and its private key is useless. You then need multiple keys from other singing accounts to send XEM. NEM's current implementation of multisig is "M-of-N", meaning M can be any number equal to or less than N, i.e., 1-of-4, 2-of-3, 4-of-9, 11-of-12 and so on. NEM also allows "N-of-N" accounts, i.e., 1-of-1, 2-of-2, 5-of-5, 10-of-10 and so on. With N-of-N accounts transaction have to have all N cosignatories sign the account, but to edit the signers on the account it is "N-1."
 
 
 
