@@ -68,7 +68,7 @@ Domain owner can create subdomain on its owned domain and set address mapping on
 
 # The comparison between two proposal
 
--                             | Mosaic based                        | Address based
+ --                           | Mosaic based                        | Address based
 ------------------------------|:------------------------------------|:-------------------------------
 Domain                        | Mosaic                              | Address
 Registry Information storage  | Registry Account                    | Address(made of domain name)
