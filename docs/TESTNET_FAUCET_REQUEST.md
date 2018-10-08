@@ -6,7 +6,7 @@
 ## Request XEM on testnet
 
 
-1. Create a NEM testnet wallet
+1. Create a NEM testnet wallet ([tutorial](https://docs.nem.io/ja/nanowallet/creating-a-wallet))
 
 2. There are 2 places you can ask for testnet token:
 - Access [NEM testnet faucet](http://test-nem-faucet.44uk.net/) (you can only require 20 XEM here):
