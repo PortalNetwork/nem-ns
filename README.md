@@ -2,6 +2,8 @@
 
 > 📖🔍 Documents of the NEM Name Service.
 
+# Overview
+
 ## 💡 What is NEM?
 NEM is the world’s first "Smart Asset" blockchain. Built with businesses in mind, NEM is a world class platform designed to offer a streamlined method to maintain a secure ledger of transactions.
 
@@ -26,6 +28,12 @@ NNS is the NEM Name Service, a distributed, open, and extensible naming system b
     - [Resolver](./docs/RESOLVER.md)
 - [Integration](./docs/INTEGRATION.md)
     - [Docker Setup](./docs/NEM_DEV_DOCKER.md)
+
+## NEM in Web3.0
+
+## NEM Technical Stack
+
+# Introduction
 
 ## NEM NIS Docker node setup
 
