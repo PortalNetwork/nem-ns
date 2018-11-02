@@ -33,33 +33,33 @@ NNS is the NEM Name Service, a distributed, open, and extensible naming system b
 
 ## NEM Technical Stack
 NEM Name Service (NEM-NS) is governed by three smart assets components, registrar, registry, and resolver. The three smart assets contain the core logic for the NEM Name Service implementation, from the ownership managment for a domain, to the global resolving layer that is reposible for connecting different tech stacks and enhances the usability for different infrastructures. These layers structure starts from top to botto along the y-axis, and will be explained in the following sections.
-![NEM Tech Stack](./assets/NEM-stack.jpg)
+![NEM Tech Stack](./assets/NEM-stack.png)
 
 ### State Layer
 State layer is where user’s “state”, or user’s information and behavior, is stored. NEM is where these data are stored, and gives users the ability to control their own state. And from hereon every layer is built on or is compatible with the layers below it.
-![NEM State](./assets/NEM-state.jpg)
+![NEM State](./assets/NEM-state.pgn)
 
 ### Computation Layer
 NEM uses its smart asset in its computation layer, which is responsible for executing complicated calculations. And by giving users direct API access to a specialized set of tested and secure on-blockchain features, Portal Network will be deploying NEM-NS (Smart Asset Standard) on this layer that consists 3 major components. 
-![NEM Computation](./assets/NEM-computation.jpg)
+![NEM Computation](./assets/NEM-computation.png)
 
 ### Component Layer
 The component layer can provide more functions to the smart assets by combing the State Layer and Computation Layer (ie. crypto assets, identity, cryptocurrency). In the case of NEM-NS, we will consist three abstract components which are `registrar`, `registry`, and `resolver` in order to modularize the whole NEM Name service into three pieces. These three main smart contracts components represent the three responsibilities for the best practice of the current naming system.
 
 The `registry` stores a list of every domain (and subdomain, and sub-sub-domain, and so forth) and the related ownership information. The `registrar` governs the registering process for the specific domain. The mechanism design for the process should consider how to prevent the collusion and economical efficiency. The `resolver` is in charge of resolving the universal mapping logic from wallet address, contract address, decentralized content address, and many more.
-![NEM Component](./assets/NEM-component.jpg)
+![NEM Component](./assets/NEM-component.png)
 
 ### Protocol Layer
 NEM Name Service can utilize the BNS protocol to modularize the business logic and provide the well-designed interfaces to let other services easily integrated with. It is a gateway for developers to connect different layers and increase more business capacity, enhance the usability and reduce the complexity.
-![NEM Protocol](./assets/NEM-protocol.jpg)
+![NEM Protocol](./assets/NEM-protocol.png)
 
 ### User Control Layer
 User control layer is in charge of managing private keys to communicate with the state layer. NEM-NS empowers users to control, set up and manage their digital asset with an easier and readable text, which could be further utilized in the next application layer. 
-![NEM User](./assets/NEM-user.jpg)
+![NEM User](./assets/NEM-user.png)
 
 ### Application Layer
 The above components provided by different layers unleashes more real business opportunities. For example, wallet that can resolve NEM-NS, dApp that utilize NEM-NS for users identity and more. All of these allow users to view and access the decentralized resources through simple names like `identity.nem`.
-![NEM Application](./assets/NEM-app.jpg)
+![NEM Application](./assets/NEM-app.png)
 
 # Introduction
 
