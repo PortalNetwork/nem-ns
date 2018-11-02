@@ -37,7 +37,7 @@ NEM Name Service (NEM-NS) is governed by three smart assets components, registra
 
 ### State Layer
 State layer is where user’s “state”, or user’s information and behavior, is stored. NEM is where these data are stored, and gives users the ability to control their own state. And from hereon every layer is built on or is compatible with the layers below it.
-![NEM State](./assets/NEM-state.pgn)
+![NEM State](./assets/NEM-state.png)
 
 ### Computation Layer
 NEM uses its smart asset in its computation layer, which is responsible for executing complicated calculations. And by giving users direct API access to a specialized set of tested and secure on-blockchain features, Portal Network will be deploying NEM-NS (Smart Asset Standard) on this layer that consists 3 major components. 
