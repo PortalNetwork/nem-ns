@@ -34,7 +34,7 @@ NEM Name Service plays an connecting and entry layer in Web3.0 services. It conn
 ![Web3](./assets/Web3.png)
 
 ## NEM Technical Stack
-NEM Name Service (NEM-NS) is governed by three smart assets components, registrar, registry, and resolver. The three smart assets contain the core logic for the NEM Name Service implementation, from the ownership managment for a domain, to the global resolving layer that is reposible for connecting different tech stacks and enhances the usability for different infrastructures. These layers structure starts from top to botto along the y-axis, and will be explained in the following sections.
+NEM Name Service (NEM-NS) is governed by three smart assets components, registrar, registry, and resolver. The three smart assets contain the core logic for the NEM Name Service implementation, from the ownership managment for a domain, to the global resolving layer that is reposible for connecting different tech stacks and enhances the usability for different infrastructures. These layers structure starts from top to bottom along the y-axis, and will be explained in the following sections.
 ![NEM Tech Stack](./assets/NEM-stack.png)
 
 ### State Layer
